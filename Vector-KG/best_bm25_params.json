@@ -1,0 +1,26 @@
+{
+  "Function": {
+    "b": 0.95,
+    "weight": 0.5
+  },
+  "StringGroup": {
+    "b": 0.4,
+    "weight": 0.5
+  },
+  "MalcatFeature": {
+    "b": 0.6,
+    "weight": 0.5
+  },
+  "ExifTag": {
+    "b": 0.3,
+    "weight": 1.5
+  },
+  "IoCNorm": {
+    "b": 0.05,
+    "weight": 2.0
+  },
+  "Mutex": {
+    "b": 0.05,
+    "weight": 2.0
+  }
+}

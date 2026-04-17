@@ -1,0 +1,47 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.ipynb_checkpoints/
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs and runtime scratch data
+*.log
+logs/
+**/logs/
+mid_results/
+**/mid_results/
+
+# Local model artifacts
+Vector-KG/models/
+
+# Generated retrieval / vector / graph outputs
+Vector-KG/commonality/
+Vector-KG/sample_attribution_top20.json
+Vector-KG/tuning_data.json
+Vector-KG/final_RAG.json
+Vector-KG/samples/vector_store/
+Vector-KG/samples/vector_store_benchmark/
+
+# Large index / embedding artifacts
+*.faiss
+*.npy
